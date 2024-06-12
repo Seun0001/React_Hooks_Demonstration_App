@@ -1,5 +1,11 @@
 body {
-    background-color: color-mix(in srgb, dodgerblue 50%, limegreen 50%);
+    /* background-color: color-mix(in srgb, dodgerblue 50%, limegreen 50%); */
+    background: url(../Images/AI.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    overflow-y: auto;
 }
 h1 {
     margin: 0px;
@@ -11,7 +17,7 @@ h1 {
     align-items: center;
 }
 h2 {
-    color: khaki;
+    color:brown
 }
 div > .countList,
 div > .keyName {
@@ -20,16 +26,16 @@ div > .keyName {
 }
 p,
 ul {
-    color: yellow;
+    color: ;
     font-weight: bold;
 }
 button {
     color: #fff;
     font-weight: bold;
-    background-color:orangered;
+    background-color:cornflowerblue;
 }
 .default {
-    color: #fff;
+    color: black;
 }
 .positive {
     color: green;

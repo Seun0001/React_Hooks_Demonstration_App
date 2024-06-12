@@ -51,12 +51,14 @@ function ReactHooks() {
   };
 
   return (
-    <div className="container">
+    <div>
       <h1>React Hooks Demonstration App</h1>
       <div className="countList">
         {/* Counter with useState */}
         <h2>Counter</h2>
-        <p className={count === 0 ? "zero" : count > 0 ? "positive" : "negative"}>
+        <p
+          className={count === 0 ? "zero" : count > 0 ? "positive" : "negative"}
+        >
           <span className="default">Count:</span> {count}
         </p>
         {/* <p>Count: {count}</p> */}
