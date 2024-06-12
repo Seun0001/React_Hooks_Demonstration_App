@@ -1,1 +1,1 @@
-User Profile Manager
+React Hooks Demonstration App
