@@ -1,0 +1,39 @@
+body {
+    background-color: color-mix(in srgb, dodgerblue 50%, limegreen 50%);
+}
+h1 {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right, grey, aqua, lime, lightblue);
+    color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    color: khaki;
+}
+div > .countList,
+div > .keyName {
+    font-size: 20px;
+    margin-left: 45%;
+}
+p,
+ul {
+    color: yellow;
+    font-weight: bold;
+}
+button {
+    color: #fff;
+    font-weight: bold;
+    background-color:orangered;
+}
+.default {
+    color: #fff;
+}
+.positive {
+    color: green;
+}
+.negative {
+    color: red;
+}
