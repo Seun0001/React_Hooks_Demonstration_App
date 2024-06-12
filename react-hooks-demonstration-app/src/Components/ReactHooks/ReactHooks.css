@@ -5,7 +5,7 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
-    overflow-y: auto;
+    overflow-x: auto;
 }
 h1 {
     margin: 0px;
@@ -17,7 +17,7 @@ h1 {
     align-items: center;
 }
 h2 {
-    color:brown
+    color: blue;
 }
 div > .countList,
 div > .keyName {
@@ -26,7 +26,7 @@ div > .keyName {
 }
 p,
 ul {
-    color: ;
+    color: green;
     font-weight: bold;
 }
 button {
