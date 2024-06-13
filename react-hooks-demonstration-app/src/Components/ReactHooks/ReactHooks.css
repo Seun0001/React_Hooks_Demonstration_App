@@ -66,15 +66,18 @@ button {
 
 /* Mobile view of the webpage */
 @media screen and (max-width: 1200px) {
+    h1 {
+        text-align: end;
+    }
     .countList > h2 {
         color: teal;
         background: linear-gradient(grey, white, white);
-        width: 50%;
+        width: 80%;
     }
     .keyName > h2 {
         color: teal;
         background: linear-gradient(white, white, grey);
-        width: 50%;
+        width: 80%;
     }
     .new-edit {
         display: flex;
