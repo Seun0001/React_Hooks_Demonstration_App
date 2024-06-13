@@ -65,20 +65,23 @@ button {
 }
 
 /* Mobile view of the webpage */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .countList > h2 {
         color: teal;
         background: linear-gradient(grey, white, white);
-        width: 40%;
+        width: 50%;
     }
     .keyName > h2 {
         color: teal;
         background: linear-gradient(white, white, grey);
-        width: 40%;
+        width: 50%;
     }
     .new-edit {
         display: flex;
         align-items: center;
-        gap: 16vw;
+        gap: 10vw;
+    }
+    input {
+        width: 5rem;
     }
 }
