@@ -72,7 +72,7 @@ button {
     .countList > h2 {
         color: teal;
         background: linear-gradient(grey, white, white);
-        width: 80%;
+        width: 100%;
     }
     div > .countList,
     div > .keyName {
@@ -82,7 +82,7 @@ button {
     .keyName > h2 {
         color: teal;
         background: linear-gradient(white, white, grey);
-        width: 80%;
+        width: 60%;
     }
     .new-edit {
         display: flex;
