@@ -68,6 +68,7 @@ button {
 @media screen and (max-width: 1200px) {
     h1 {
         text-align: end;
+        background: #fff;
     }
     .countList > h2 {
         color: #fff;
