@@ -74,6 +74,11 @@ button {
         background: linear-gradient(grey, white, white);
         width: 80%;
     }
+    div > .countList,
+    div > .keyName {
+        font-size: 20px;
+        margin-left: 40%;
+    }
     .keyName > h2 {
         color: teal;
         background: linear-gradient(white, white, grey);

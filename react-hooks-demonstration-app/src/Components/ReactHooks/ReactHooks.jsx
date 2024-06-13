@@ -61,7 +61,7 @@ function ReactHooks() {
 
   return (
     <div>
-      <h1>React Hooks Demonstration App</h1>
+      <h1>React Hooks Demo</h1>
       <div className="countList">
         {/* Counter with useState */}
         <h2>Counter</h2>
