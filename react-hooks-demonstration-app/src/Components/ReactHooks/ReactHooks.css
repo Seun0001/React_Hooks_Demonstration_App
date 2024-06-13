@@ -70,9 +70,9 @@ button {
         text-align: end;
     }
     .countList > h2 {
-        color: teal;
-        background: linear-gradient(grey, white, white);
-        width: 70%;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.1);
+        width: 60%;
     }
     div > .countList,
     div > .keyName {
@@ -80,9 +80,9 @@ button {
         margin-left: 40%;
     }
     .keyName > h2 {
-        color: teal;
-        background: linear-gradient(white, white, grey);
-        width: 60%;
+        color: #fff;
+        background: none;
+        width: 80%;
     }
     .new-edit {
         display: flex;
