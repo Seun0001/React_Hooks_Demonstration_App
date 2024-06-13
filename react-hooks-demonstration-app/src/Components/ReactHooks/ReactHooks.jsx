@@ -1,4 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
+import "./ReactHooks.css";
+import { FaTimes } from "react-icons/fa";
+
+
 
 // Custom hook for local storage management
 function useLocalStorage(key, initialValue) {
@@ -50,6 +54,11 @@ function ReactHooks() {
     }
   };
 
+  // Function to handle removing a name from the list
+  const removeName = (index) => {
+    setNames(names.filter((_, i) => i !== index));
+  };
+
   return (
     <div>
       <h1>React Hooks Demonstration App</h1>
@@ -72,7 +81,13 @@ function ReactHooks() {
         <button onClick={addName}>Add Name</button>
         <ul>
           {names.map((name, index) => (
-            <li key={index}>{name}</li>
+            <li key={index} className="new-edit">
+              <p className="nameList">{name}</p>
+                <button className="x">
+                  <FaTimes className="remove-button"
+                onClick={() => removeName(index)}/>
+                </button>
+            </li>
           ))}
         </ul>
       </div>

@@ -1,11 +1,9 @@
 body {
-    /* background-color: color-mix(in srgb, dodgerblue 50%, limegreen 50%); */
-    background: url(../Images/AI.jpg);
+    background: url(../Images/Aipexel.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: scroll;
-    overflow-x: auto;
+    overflow-y: scroll;
 }
 h1 {
     margin: 0px;
@@ -16,8 +14,18 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-h2 {
-    color: blue;
+.countList > h2 {
+    color: teal;
+    background: linear-gradient(grey, white, white);
+    width: 20%;
+}
+.countList > button {
+    width: 5rem;
+}
+.keyName > h2 {
+    color: teal;
+    background: linear-gradient(white, white, grey);
+    width: 20%;
 }
 div > .countList,
 div > .keyName {
@@ -26,13 +34,21 @@ div > .keyName {
 }
 p,
 ul {
-    color: green;
+    color: white;
     font-weight: bold;
+}
+.nameList {
+    background: rgba(10, 0, 255, 0.4);
+    background: url(../Images/Asparic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 button {
     color: #fff;
     font-weight: bold;
     background-color:cornflowerblue;
+    
 }
 .default {
     color: black;
@@ -42,4 +58,32 @@ button {
 }
 .negative {
     color: red;
+}
+.new-edit {
+    display: flex;
+    align-items: center;
+    gap: 7.5vw;
+}
+.x {
+    color: black;
+    cursor: default;
+}
+
+/* Mobile view of the webpage */
+@media screen and (max-width: 1000px) {
+    .countList > h2 {
+        color: teal;
+        background: linear-gradient(grey, white, white);
+        width: 40%;
+    }
+    .keyName > h2 {
+        color: teal;
+        background: linear-gradient(white, white, grey);
+        width: 40%;
+    }
+    .new-edit {
+        display: flex;
+        align-items: center;
+        gap: 16vw;
+    }
 }
