@@ -65,7 +65,7 @@ button {
 }
 
 /* Mobile view of the webpage */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     .countList > h2 {
         color: teal;
         background: linear-gradient(grey, white, white);
