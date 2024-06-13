@@ -4,6 +4,9 @@ body {
     background-position: center;
     background-size: cover;
     overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    width: 100%; height: auto;
 }
 h1 {
     margin: 0px;
@@ -34,24 +37,16 @@ div > .keyName {
 }
 p,
 ul {
-    color: white;
+    color: whitesmoke;
     font-weight: bold;
-}
-.nameList {
-    background: rgba(10, 0, 255, 0.4);
-    background: url(../Images/Asparic.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 button {
     color: #fff;
     font-weight: bold;
     background-color:cornflowerblue;
-    
 }
 .default {
-    color: black;
+    color: #fff;
 }
 .positive {
     color: green;
